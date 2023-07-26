@@ -87,17 +87,6 @@ fn three_by_three(mut body: egui_extras::TableBody) {
             ui.label("byte");
         });
     });
-    body.row(15.0, |mut row| {
-        row.col(|ui| {
-            ui.label("bit");
-        });
-        row.col(|ui| {
-            ui.label("byte");
-        });
-        row.col(|ui| {
-            ui.label("barbecue");
-        });
-    });
 }
 
 fn four_by_four(mut body: egui_extras::TableBody) {

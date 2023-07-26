@@ -3441,6 +3441,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "tables"
+version = "0.1.0"
+dependencies = [
+ "eframe",
+ "egui_extras",
+]
+
+[[package]]
 name = "target-lexicon"
 version = "0.12.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
